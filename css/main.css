@@ -23,6 +23,7 @@
     --bgcolor-red: #FF0000;
 
     --bghover-darkBlue: #1f167d;
+    --bghover-orange: #d1a127;
 }
 
 * {
@@ -115,9 +116,40 @@ input[type=button] {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+
+/* ===========================  HEADER  =========================== */
 nav {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    border-radius: 0 0 20px 20px;
+    background-color: var(--bgcolor-orange);
+    z-index: 1000;
 }
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul>li>a {
+    display: block;
+    padding: 0 20px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    font-size: var(--font-p-size);
+    font-weight: 700;
+}
+
+nav ul>li>a:hover {
+    background-color: var(--bghover-orange);
+}
+
+nav button i {
+    font-size: 35px;
+}
+/* =============================================================== */
+
 
 
 /* ===========================  HEADER  =========================== */
@@ -132,7 +164,8 @@ header {
     z-index: 999;
 }
 
-header button {
+header button,
+nav button {
     width: 8vh;
     height: 8vh;
     background-color: transparent;
@@ -241,6 +274,7 @@ section.contact {
     display: block;
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .contact_form input[type=text] {
@@ -259,12 +293,15 @@ section.contact {
     font-size: 16px;
 }
 
-.contact_form input[type=checkbox] {
-    display: inline-block;
+.contact_form .checkbox_div {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
-.contact_form .checkbox_div {
 
+.contact_form .checkbox_div input[type=checkbox] {
+    width: 20%;
 }
 
 /* .contact_form input[type=button] {
