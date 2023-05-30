@@ -1,0 +1,19 @@
+h2 {
+    margin-bottom: 40px;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+    color: black;
+}
+
+
+/* ===========================  HEADER  =========================== */
+.login_box {
+    background-color: var(--bgcolor-orange);
+    padding: 30px 15px;
+    margin: 0 25px;
+    border: 4px solid rgb(197, 133, 15);
+    border-radius: 20px;
+}
+/* =============================================================== */
+
+

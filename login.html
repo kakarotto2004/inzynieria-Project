@@ -13,6 +13,7 @@
 
     <!-- <link rel="stylesheet" href="css/main2.css"> -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
@@ -50,10 +51,22 @@
 
         <main>
             <div class="main_wrap">
-                <h1 class="company_name">szybka jazda</h1>
-                <i class="fa-solid fa-car"></i>
-                <div class="main_buttons">
-                    <button class="blue_button">lista samochodów</button>
+                <div class="login_box">
+                    <h2>logowanie</h2>
+                    <form action="#">
+                        <label for="email">wpisz e-mail</label>
+                        <input type="text" name="email" id="email">
+                        <label for="password">wpisz hasło</label>
+                        <input type="text" name="password" id="password">
+                        <input type="button" value="zaloguj się">
+                    </form>
+                    <div class="login_options">
+                        <p>
+                            <a href="resetpass.html">Zapomniałeś(aś) hasła?</a>
+                        </p>
+                        <span class="dash"></span>albo<span class="dash"></span>
+                        <p>Nie posiadasz konta? <a href="registeraccount.html">ZAREJESTRUJ SIĘ</a></p>
+                    </div>
                 </div>
             </div>
         </main>

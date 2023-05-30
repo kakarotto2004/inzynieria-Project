@@ -106,6 +106,41 @@ input[type=button] {
 }
 /* --------------------------------------------- */
 
+
+/* ---------------- phone and email box ---------------- */
+.phone_number_box {
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.phone_number_box a {
+    display: block;
+}
+
+.phone_number_box a>i {
+    padding-right: 10px;
+}
+/* --------------------------------------------- */
+ 
+
+/* ---------------- phone and email box display ---------------- */
+.phone_number_boxDisplay {
+    position: fixed;
+    top: 8vh;
+    right: 0;
+    width: 70%;
+    padding-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: var(--bgcolor-orange);
+    z-index: 1000;
+    overflow: hidden;
+}
+/* --------------------------------------------- */
+
+
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -123,9 +158,11 @@ nav {
     top: 0;
     left: 0;
     width: 70%;
-    border-radius: 0 0 20px 20px;
+    padding-bottom: 20px;
+    border-radius: 0 20px 20px 20px;
     background-color: var(--bgcolor-orange);
     z-index: 1000;
+    overflow: hidden;
 }
 
 nav ul {
@@ -141,12 +178,41 @@ nav ul>li>a {
     font-weight: 700;
 }
 
+nav ul>a {
+    display: block;
+    padding: 10px;
+    margin: 20px 30px;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--bgcolor-whiteTxt);
+    background-color: var(--bgcolor-darkBlue);
+}
+
+/* nav ul>li:nth-last-of-type(1)::after {
+    display: block;
+    content: "";
+    margin-top: 10px;
+    border-top: 1px dashed black;
+}
+
+nav ul>.phone_number_box::before {
+    display: block;
+    content: "";
+    margin-bottom: 10px;
+    border-top: 1px dashed black; 
+}*/
+
 nav ul>li>a:hover {
     background-color: var(--bghover-orange);
 }
 
 nav button i {
     font-size: 35px;
+}
+
+nav {
+    display: none;
 }
 /* =============================================================== */
 
