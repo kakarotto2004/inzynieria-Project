@@ -6,7 +6,7 @@ h2 {
 }
 
 
-/* ===========================  HEADER  =========================== */
+/* ===========================  LOGIN  =========================== */
 .login_box {
     background-color: var(--bgcolor-orange);
     padding: 30px 25px;
@@ -27,7 +27,8 @@ input {
     display: block;
 }
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
     width: 100%;
     height: 40px;
     padding-left: 10px;
@@ -41,7 +42,10 @@ input[type=button] {
     margin: 40px auto;
 }
 
-.login_options, .login_options p, .login_options a, .login_options span {
+.login_options,
+.login_options p,
+.login_options a,
+.login_options span {
     font-size: 1.2rem;
     letter-spacing: 0;
     line-height: 1.6;
@@ -56,6 +60,26 @@ input[type=button] {
     font-weight: 700;
     font-size: 1.4rem;
 }
+
 /* =============================================================== */
 
 
+
+/* ===========================  RESET PASSWORD  =========================== */
+.resetparagraph {
+    padding: 0 30px;
+    margin-bottom: 30px;
+    letter-spacing: 0;
+    text-transform: none;
+    font-size: 1.4rem;
+    color: var(--bgcolor-darkBlue);
+}
+
+.go_back_href {
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    text-align: left;
+}
+
+/* =============================================================== */
