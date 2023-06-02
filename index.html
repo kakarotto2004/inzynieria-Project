@@ -18,7 +18,7 @@
 <body>
     <div class="wrapper">
         <nav class="navbar">
-            <button><i class="fa-solid fa-xmark"></i></button>
+            <button onclick="toggleNavbar()"><i class="fa-solid fa-xmark"></i></button>
             <ul>
                 <li><a href="#">samochody</a></li>
                 <li><a href="#">dlaczego my?</a></li>
@@ -34,17 +34,17 @@
         </nav>
 
         <header class="header clearfix">
-            <button><i class="fa-solid fa-bars"></i></button>
+            <button onclick="toggleNavbar()"><i class="fa-solid fa-bars"></i></button>
             <div class="nav_contacts">
-                <button><i class="fa-solid fa-phone-volume"></i></button>
-                <button><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></button>
-                <!-- <div class="phone_number_boxDisplay">
+                <button onclick="toggleContact()"><i class="fa-solid fa-phone-volume"></i></button>
+                <button><a class="link_button" href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></button>
+                <div class="phone_number_boxDisplay">
                     <div class="phone_number_box">
                         <p>Skontaktuj sie z nami</p>
                         <a href="tel:000-000-000"><i class="fa-solid fa-phone"></i>+48 000 000 000</a>
                         <a href="mailto: szybka@jazda.pl"><i class="fa-solid fa-paper-plane"></i>szybka@jazda.pl</a>
                     </div>
-                </div> -->
+                </div>
             </div>
         </header>
 
@@ -85,6 +85,8 @@
             <p><span>szybka jazda</span> &copy; 2023 Copyright Szybka Jazda</p>
         </footer>
     </div>
+
+    <script src="js/toggle.js"></script>
 </body>
 
 </html>
