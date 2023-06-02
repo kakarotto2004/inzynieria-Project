@@ -147,7 +147,9 @@ input[type=button] {
 }
 /* --------------------------------------------- */
 
-
+.img_logo {
+    width: 70%;
+}
 
 .wrapper {
     display: flex;
