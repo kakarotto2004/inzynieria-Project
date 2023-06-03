@@ -384,6 +384,10 @@ section.contact {
     margin-bottom: 25px;
 }
 
+.contact_form .checkbox_div p {
+    margin-left: 10px;
+    font-size: 10px;
+}
 
 .contact_form .checkbox_div input[type=checkbox] {
     width: 20%;
