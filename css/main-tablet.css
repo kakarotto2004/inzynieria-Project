@@ -6,6 +6,10 @@
         --font-label-size: 2.6rem;
     }
 
+    .img_logo {
+        width: 50%;
+    }
+
     .blue_button,
     input[type=button] {
         padding: 25px 40px;
