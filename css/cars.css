@@ -17,6 +17,7 @@ article {
     display: block;
     width: 100%;
     border-radius: 20px 20px 0 0;
+    cursor: pointer;
 }
 
 .car_info h2 {
@@ -43,6 +44,7 @@ article {
 .short_info_element {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .short_info_element i {
@@ -52,14 +54,4 @@ article {
 
 .short_info_element p {
     font-size: 1.6rem;
-}
-
-a.a_button_style {
-    max-width: 400px;
-    margin: 20px;
-}
-
-.car_description p {
-    padding: 10px 20px;
-    text-align: center;
 }
