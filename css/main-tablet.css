@@ -94,7 +94,8 @@
         word-wrap: break-word;
     }
 
-    .contact_form input[type=button] {
+    .contact_form input[type=button],
+    .contact_form input[type=submit] {
         width: 70%;
         font-size: 26px;
     }

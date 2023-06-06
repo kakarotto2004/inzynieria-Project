@@ -35,7 +35,8 @@ main input {
 }
 
 main input[type=text],
-main input[type=password] {
+main input[type=password],
+main input[type=email] {
     width: 100%;
     height: 40px;
     padding-left: 10px;
@@ -45,7 +46,8 @@ main input[type=password] {
     box-shadow: 0 2px 5px 0px black;
 }
 
-main input[type=button] {
+main input[type=button],
+main input[type=submit]  {
     margin: 40px auto;
 }
 
