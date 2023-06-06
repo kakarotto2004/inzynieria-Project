@@ -1,4 +1,6 @@
 article {
+    display: flex;
+    flex-direction: column;
     padding-top: 8vh;
     padding-bottom: 3vh;
 }
@@ -50,4 +52,14 @@ article {
 
 .short_info_element p {
     font-size: 1.6rem;
+}
+
+a.a_button_style {
+    max-width: 400px;
+    margin: 20px;
+}
+
+.car_description p {
+    padding: 10px 20px;
+    text-align: center;
 }

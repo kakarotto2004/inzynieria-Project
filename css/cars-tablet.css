@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+    article {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    a.a_button_style {
+        max-width: 400px;
+        margin: 20px auto;
+    }
+    
+    .car_description p {
+        padding: 10px 80px;
+        text-align: center;
+    }
+}
