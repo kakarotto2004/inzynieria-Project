@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Samochody, auta, wypożyczalnia, wypożyczalia aut, szybkie auta, sportowe auta, sportowe samochody">
+    <meta name="description" content="Wypożyczalnia szybkich, sportowych aut">
+    <meta name="author"
+        content="Jakub Pastucha (frontend), Kacper Latecki (backend), Artur Malinowski (team leader/projekt), Katarzyna Grad (dokumentacja/grafika), Marek Szymanowicz (dokumentacja)">
+
     <title>Wypożyczalnia aut sportowych</title>
 
     <!-- styles -->
@@ -16,6 +22,8 @@
 
     <!-- tablet styles -->
     <link rel="stylesheet" href="css/main-tablet.css">
+
+    <!-- pc styles -->
     <link rel="stylesheet" href="css/main-pc.css">
 
     <!-- favicon -->
@@ -24,6 +32,7 @@
 
 <body>
     <div class="wrapper">
+        <!-- Mobile/Tablet version header -->
         <nav class="navbar">
             <button onclick="toggleNavbar()"><i class="fa-solid fa-xmark"></i></button>
             <ul>
@@ -41,19 +50,6 @@
             </ul>
         </nav>
 
-        <header class="header_pc clearfix">
-            <div class="nav_menu">
-                <ul>
-                    <li><a href="index.html">strona główna</a></li>
-                    <li><a href="cars.html">samochody</a></li>
-                    <li><a href="about.html">dlaczego my?</a></li>
-                    <li><a href="voucher.html">vouchery</a></li>
-                    <li><a href="howworks.html">jak to działa?</a></li>
-                </ul>
-            </div>
-            <button><a class="link_button" href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></button>
-        </header>
-
         <header class="header clearfix">
             <button onclick="toggleNavbar()"><i class="fa-solid fa-bars"></i></button>
             <div class="nav_contacts">
@@ -69,6 +65,22 @@
                 </div>
             </div>
         </header>
+        <!-- -------------------------------------------- -->
+
+        <!-- PC version header -->
+        <header class="header_pc clearfix">
+            <div class="nav_menu">
+                <ul>
+                    <li><a href="index.html">strona główna</a></li>
+                    <li><a href="cars.html">samochody</a></li>
+                    <li><a href="about.html">dlaczego my?</a></li>
+                    <li><a href="voucher.html">vouchery</a></li>
+                    <li><a href="howworks.html">jak to działa?</a></li>
+                </ul>
+            </div>
+            <button><a class="link_button" href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></button>
+        </header>
+        <!-- --------------------------------------- -->
 
         <main>
             <div class="main_wrap">
@@ -94,7 +106,7 @@
                     <label for="user-email">Twoj adres e-mail:</label>
                     <input id="user-email" type="email">
                     <label for="user-message">Treść wiadomości:</label>
-                    <input id="user-email" type="textarea">
+                    <input id="user-message" type="textarea">
                     <div class="checkbox_div">
                         <input type="checkbox" name="personal-data" id="personal-data" required>
                         <p>Zgadzam się na wykorzystanie danych osobowych zgodnie z Polityką Prywatności</p>

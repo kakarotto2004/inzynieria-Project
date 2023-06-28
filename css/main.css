@@ -93,6 +93,7 @@ input[type=submit] {
     font-size: var(--font-p-size);
     color: var(--bgcolor-whiteTxt);
     transition: .3s;
+    cursor: pointer;
 }
 
 .blue_button:hover,
@@ -110,6 +111,7 @@ a.a_button_style {
     text-transform: uppercase;
     color: var(--bgcolor-whiteTxt);
     background-color: var(--bgcolor-darkBlue);
+    cursor: pointer;
 }
 
 /* --------------------------------------------- */
@@ -183,7 +185,7 @@ a.a_button_style {
 }
 
 
-/* ===========================  HEADER  =========================== */
+/* ===========================  NAVBAR  =========================== */
 .navbar {
     display: none;
 }
@@ -242,6 +244,10 @@ nav button i {
 
 
 /* ===========================  HEADER  =========================== */
+header.header_pc {
+    display: none;
+}
+
 header {
     position: fixed;
     top: 0;
