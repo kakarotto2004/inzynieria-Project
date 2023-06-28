@@ -16,6 +16,7 @@
 
     <!-- tablet styles -->
     <link rel="stylesheet" href="css/main-tablet.css">
+    <link rel="stylesheet" href="css/main-pc.css">
 
     <!-- favicon -->
     <link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
@@ -40,11 +41,25 @@
             </ul>
         </nav>
 
+        <header class="header_pc clearfix">
+            <div class="nav_menu">
+                <ul>
+                    <li><a href="index.html">strona główna</a></li>
+                    <li><a href="cars.html">samochody</a></li>
+                    <li><a href="about.html">dlaczego my?</a></li>
+                    <li><a href="voucher.html">vouchery</a></li>
+                    <li><a href="howworks.html">jak to działa?</a></li>
+                </ul>
+            </div>
+            <button><a class="link_button" href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></button>
+        </header>
+
         <header class="header clearfix">
             <button onclick="toggleNavbar()"><i class="fa-solid fa-bars"></i></button>
             <div class="nav_contacts">
                 <button onclick="toggleContact()"><i class="fa-solid fa-phone-volume"></i></button>
-                <button><a class="link_button" href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a></button>
+                <button><a class="link_button" href="login.html"><i
+                            class="fa-solid fa-right-to-bracket"></i></a></button>
                 <div class="phone_number_boxDisplay">
                     <div class="phone_number_box">
                         <p>Skontaktuj sie z nami</p>
@@ -81,7 +96,8 @@
                     <label for="user-message">Treść wiadomości:</label>
                     <input id="user-email" type="textarea">
                     <div class="checkbox_div">
-                        <input type="checkbox" name="personal-data" id="personal-data" required><p>Zgadzam się na wykorzystanie danych osobowych zgodnie z Polityką Prywatności</p>
+                        <input type="checkbox" name="personal-data" id="personal-data" required>
+                        <p>Zgadzam się na wykorzystanie danych osobowych zgodnie z Polityką Prywatności</p>
                     </div>
                     <input type="submit" value="WYŚLIJ WIADOMOŚĆ">
                 </form>

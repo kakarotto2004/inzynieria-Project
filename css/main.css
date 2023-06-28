@@ -51,7 +51,9 @@ body {
     background-position: center;
 }
 
-h1, h2, button {
+h1,
+h2,
+button {
     text-transform: uppercase;
 }
 
@@ -59,7 +61,9 @@ h2 {
     font-size: var(--font-h2-size);
 }
 
-p, a, button {
+p,
+a,
+button {
     font-size: var(--font-p-size);
 }
 
@@ -107,6 +111,7 @@ a.a_button_style {
     color: var(--bgcolor-whiteTxt);
     background-color: var(--bgcolor-darkBlue);
 }
+
 /* --------------------------------------------- */
 
 
@@ -118,6 +123,7 @@ a.a_button_style {
     text-transform: uppercase;
     text-shadow: 0 3px 3px rgb(104, 104, 104);
 }
+
 /* --------------------------------------------- */
 
 
@@ -140,8 +146,9 @@ a.a_button_style {
 .phone_number_box p {
     margin-bottom: 5px;
 }
+
 /* --------------------------------------------- */
- 
+
 
 /* ---------------- phone and email box display ---------------- */
 .phone_number_boxDisplay {
@@ -158,6 +165,7 @@ a.a_button_style {
     z-index: 1000;
     overflow: hidden;
 }
+
 /* --------------------------------------------- */
 
 .img_logo {
@@ -170,7 +178,6 @@ a.a_button_style {
     flex-direction: column;
     flex-grow: 1;
     min-height: 100vh;
-    max-width: 1280px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.4);
 }
@@ -218,20 +225,6 @@ nav ul>a {
     background-color: var(--bgcolor-darkBlue);
 }
 
-/* nav ul>li:nth-last-of-type(1)::after {
-    display: block;
-    content: "";
-    margin-top: 10px;
-    border-top: 1px dashed black;
-}
-
-nav ul>.phone_number_box::before {
-    display: block;
-    content: "";
-    margin-bottom: 10px;
-    border-top: 1px dashed black; 
-}*/
-
 nav ul>li>a:hover {
     background-color: var(--bghover-orange);
 }
@@ -243,6 +236,7 @@ nav button i {
 .display-block {
     display: block;
 }
+
 /* =============================================================== */
 
 
@@ -291,6 +285,7 @@ header .nav_contacts {
     margin-right: 10px;
     float: right;
 }
+
 /* =============================================================== */
 
 
@@ -322,6 +317,7 @@ main i {
 main .main_buttons {
     margin-top: 80px;
 }
+
 /* =============================================================== */
 
 
@@ -425,7 +421,7 @@ footer {
     background-color: var(--bgcolor-darkBlue);
 }
 
-footer p, 
+footer p,
 footer span {
     font-size: 14px;
 }
@@ -434,5 +430,5 @@ footer span {
     font-weight: 700;
     text-transform: uppercase;
 }
-/* =============================================================== */
 
+/* =============================================================== */

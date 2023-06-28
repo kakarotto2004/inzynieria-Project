@@ -1,0 +1,55 @@
+@media (min-width: 1440px) {
+    :root {
+        --font-h1-size: 4.6rem;
+        --font-h2-size: 3.6rem;
+        --font-p-size: 2.8rem;
+        --font-label-size: 2.6rem;
+    }
+
+    header.header {
+        display: none;
+    }
+
+    header.header_pc {
+        display: flex;
+        justify-content: space-around;
+        height: 10vh;
+    }
+
+    .nav_menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    ul {
+        display: flex;
+        padding-left: 40px;
+    }
+
+    ul>li>a {
+        padding-left: 30px;
+        padding-right: 30px;
+        text-transform: uppercase;
+        font-size: var(--font-p-size);
+        font-weight: 700;
+        color: var(--bgcolor-orange);
+        line-height: 10vh;
+    }
+
+    ul>li:hover {
+        background-color: var(--bghover-darkBlue);
+    }
+
+    header button {
+        align-self: center;
+    }
+
+    header button:hover {
+        background-color: var(--bghover-darkBlue);
+    }
+
+    header button a {
+        font-size: 40px;
+    }
+}
